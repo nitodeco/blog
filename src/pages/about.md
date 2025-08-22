@@ -3,35 +3,14 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Hi, I'm Nico. Nice to meet you!
 
-![Astro Paper](public/astropaper-og.jpg)
+I'm a software engineer with a passion for building things & code.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+I'm based in Zagreb, Croatia, and I'm currently working as a software engineer at [dreifach.ai](https://dreifach.ai), where I lead the development of a very cool unannounced product (_spoiler: it saves insurance brokers a bunch of time_).
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+I mainly develop things for the web, so naturally web development is a primary topic what I write about.
 
-## Features
+If you wanna get in touch, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/nicomoehn/).
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
-
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
-
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Btw, if you like how this blog looks, you can check out the [AstroPaper](https://github.com/satnaing/astro-paper) theme that I used to build it.

@@ -1,23 +1,17 @@
 @import "tailwindcss";
 @import "./typography.css";
+@import "./lora.css";
 
-@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+:root {
+  --background: #faf4ef;
+  --foreground: #1d1620;
+  --accent: oklch(0.5393 0.2713 286.7462);
+  --muted: #c5bfc7;
+  --border: #7d756f;
 
-:root,
-html[data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --muted: #e6e6e6;
-  --border: #ece9e9;
-}
+  --font-serif: Lora, ui-serif, Georgia, serif;
 
-html[data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60;
-  --border: #ab4b08;
+  cursor: url("../assets/cursor.png"), auto;
 }
 
 @theme inline {
@@ -38,7 +32,7 @@ html[data-theme="dark"] {
     @apply overflow-y-scroll scroll-smooth;
   }
   body {
-    @apply flex min-h-svh flex-col bg-background font-mono text-foreground selection:bg-accent/75 selection:text-background;
+    @apply flex min-h-svh flex-col bg-background font-serif text-foreground selection:bg-accent/75 selection:text-background;
   }
   a,
   button {
@@ -59,7 +53,7 @@ html[data-theme="dark"] {
 }
 
 .active-nav {
-  @apply underline decoration-wavy decoration-2 underline-offset-4;
+  @apply underline decoration-accent decoration-3 underline-offset-6;
 }
 
 /* Source: https://piccalil.li/blog/a-more-modern-css-reset/ */
